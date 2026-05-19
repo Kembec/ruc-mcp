@@ -2,10 +2,22 @@
   "name": "@kembec/ruc-mcp-darwin-x64",
   "version": "0.1.0",
   "description": "ruc-mcp binary for darwin x64",
-  "os": ["darwin"],
-  "cpu": ["x64"],
-  "bin": { "ruc-mcp": "bin/ruc-mcp" },
-  "files": ["bin/ruc-mcp", "README.md"],
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "bin": {
+    "ruc-mcp": "bin/ruc-mcp"
+  },
+  "files": [
+    "bin/ruc-mcp",
+    "README.md"
+  ],
   "license": "Apache-2.0",
-  "repository": { "type": "git", "url": "https://github.com/Kembec/ruc-mcp.git" }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kembec/ruc-mcp.git"
+  }
 }
