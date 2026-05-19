@@ -1,6 +1,6 @@
 {
   "name": "@kembec/ruc-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for SUNAT RUC registry lookup",
   "bin": {
     "ruc-mcp": "./index.js"
@@ -11,10 +11,10 @@
     "README.md"
   ],
   "optionalDependencies": {
-    "@kembec/ruc-mcp-darwin-arm64": "0.1.0",
-    "@kembec/ruc-mcp-darwin-x64": "0.1.0",
-    "@kembec/ruc-mcp-linux-x64": "0.1.0",
-    "@kembec/ruc-mcp-win32-x64": "0.1.0"
+    "@kembec/ruc-mcp-darwin-arm64": "0.1.1",
+    "@kembec/ruc-mcp-darwin-x64": "0.1.1",
+    "@kembec/ruc-mcp-linux-x64": "0.1.1",
+    "@kembec/ruc-mcp-win32-x64": "0.1.1"
   },
   "engines": {
     "node": ">=18"
