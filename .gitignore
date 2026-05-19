@@ -1,0 +1,12 @@
+/target
+npm-darwin-arm64/bin/
+npm-darwin-x64/bin/
+npm-linux-x64/bin/
+npm-win32-x64/bin/
+npm/README.md
+npm-darwin-arm64/README.md
+npm-darwin-x64/README.md
+npm-linux-x64/README.md
+npm-win32-x64/README.md
+node_modules/
+.DS_Store
