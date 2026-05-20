@@ -1,12 +1,12 @@
 {
-  "name": "@kembec/ruc-mcp-darwin-x64",
+  "name": "@kembec/ruc-mcp-linux-arm64",
   "version": "0.1.3",
-  "description": "ruc-mcp binary for darwin x64",
+  "description": "ruc-mcp binary for linux arm64",
   "os": [
-    "darwin"
+    "linux"
   ],
   "cpu": [
-    "x64"
+    "arm64"
   ],
   "bin": {
     "ruc-mcp": "bin/ruc-mcp"
@@ -15,9 +15,9 @@
     "bin/ruc-mcp",
     "README.md"
   ],
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Kembec/ruc-mcp.git"
-  }
+  },
+  "license": "MIT"
 }
