@@ -1,6 +1,6 @@
 {
   "name": "@kembec/ruc-mcp-linux-x64",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ruc-mcp binary for linux x64",
   "os": [
     "linux"
@@ -15,7 +15,7 @@
     "bin/ruc-mcp",
     "README.md"
   ],
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Kembec/ruc-mcp.git"
