@@ -1,6 +1,6 @@
 {
   "name": "@kembec/ruc-mcp",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "MCP server for SUNAT RUC registry lookup",
   "bin": {
     "ruc-mcp": "./index.js"
@@ -8,14 +8,15 @@
   "main": "./index.js",
   "files": [
     "index.js",
-    "README.md"
+    "README.md",
+    "smithery.yaml"
   ],
   "optionalDependencies": {
-    "@kembec/ruc-mcp-darwin-arm64": "0.1.4",
-    "@kembec/ruc-mcp-darwin-x64": "0.1.4",
-    "@kembec/ruc-mcp-linux-x64": "0.1.4",
-    "@kembec/ruc-mcp-linux-arm64": "0.1.4",
-    "@kembec/ruc-mcp-win32-x64": "0.1.4"
+    "@kembec/ruc-mcp-darwin-arm64": "0.1.5",
+    "@kembec/ruc-mcp-darwin-x64": "0.1.5",
+    "@kembec/ruc-mcp-linux-x64": "0.1.5",
+    "@kembec/ruc-mcp-linux-arm64": "0.1.5",
+    "@kembec/ruc-mcp-win32-x64": "0.1.5"
   },
   "engines": {
     "node": ">=18"
