@@ -9,7 +9,11 @@ fn binary_path() -> std::path::PathBuf {
     if p.ends_with("deps") {
         p.pop();
     }
-    p.push(if cfg!(windows) { "ruc-mcp.exe" } else { "ruc-mcp" });
+    p.push(if cfg!(windows) {
+        "ruc-mcp.exe"
+    } else {
+        "ruc-mcp"
+    });
     p
 }
 
@@ -31,7 +35,11 @@ impl Server {
             .expect("spawn ruc-mcp");
         let stdin = child.stdin.take().expect("stdin");
         let stdout = BufReader::new(child.stdout.take().expect("stdout"));
-        Self { child, stdin, stdout }
+        Self {
+            child,
+            stdin,
+            stdout,
+        }
     }
 
     fn send(&mut self, msg: &Value) {
